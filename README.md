@@ -41,3 +41,13 @@ dev updates:
 25/08/2025
 will be using pyqt as the base library for the UI.
 I will design the UI first then add the options to have multiple LLMs on the application
+
+
+
+
+resources:
+https://platform.openai.com/docs/quickstart
+
+
+
+Project at a standstill as I need to pay to use OpenAI's API.

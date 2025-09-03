@@ -1,0 +1,1 @@
+#central layout window that holds all the sub-windows

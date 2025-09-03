@@ -1,0 +1,1 @@
+#chat bubbles and scrolling area for the chat view

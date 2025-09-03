@@ -1,0 +1,1 @@
+#handles the styles of the windows, keeping it common with QPalette
