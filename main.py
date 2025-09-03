@@ -106,7 +106,7 @@ class MainWindow(QMainWindow):
 
         # Header
         header = QLabel("GPT-4")
-        header.setStyleSheet("font-size: 20px; font-weight: bold; padding: 10px;")
+        header.setStyleSheet("font-size: 20px; font-weight: bold; padding: 10px; color: #FFF;")
         main_area.addWidget(header)
 
         # Scrollable Chat Display
