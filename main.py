@@ -1,10 +1,19 @@
 #entry point for the application
-from PyQt5.QtWidgets import QApplication, QtWidgets
 import sys
+from PyQt5.QtWidgets import QApplication, QWidget
 
 #passing in the system argument into the application
-app = QApplication(sys.argv)
-window = QWidget()
-window.show()
+def main():
+    app = QApplication(sys.argv)
 
-app.exec()
+    #creating main window
+    window = QWidget()
+    window.setWindowTitle("aicomb")
+    window.resize(800, 600)
+    window.show()
+
+    sys.exit(app.exec())
+
+if __name__ == "__main__":
+    main()
+
